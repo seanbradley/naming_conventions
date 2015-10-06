@@ -41,6 +41,16 @@ Examples...
 * NOVA-DEV
 * SULLIVAN-PROD
 
+##DATABASES
+
+Database names should include the service which uses it, and the type of engine employed. The name should be lowercase. No dashes or underscore should be used; if and only if required, default to underscore.
+
+####Examples:
+
+* portalsql
+* mibewsql
+* apinosql **or** api_nosql
+
 
 ##GIT REPOS AND BRANCHES
 
