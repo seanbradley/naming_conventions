@@ -14,20 +14,20 @@ Like the scientific convention for naming animals (as proposed by Aristotle), go
 
 We have many potential licensees, but each licensee is a genus unto itself.
 
-ETA--prepended to any product we roll for ourselves
-NOVA--our first licensee
-SULLIVAN--a potential second licensee
-FULLSAIL--another potential licensee
+* ETA--prepended to any product we roll for ourselves
+* NOVA--our first licensee
+* SULLIVAN--a potential second licensee
+* FULLSAIL--another potential licensee
 
 
 ###ENVIRONMENTS
 
 We have only four types of specific environments. Each licensee may have more than one environment. Hence, within each licensee genus, are several environment species.
 
-LOCAL--exists only on developers' workstations
-DEMO--a demonstration environment in AWS
-DEV--a staging environment in AWS
-PROD--a production environment in AWS
+* LOCAL--exists only on developers' workstations
+* DEMO--a demonstration environment in AWS
+* DEV--a staging environment in AWS
+* PROD--a production environment in AWS
 
 ###COMBINE THEM BOTH
 
@@ -37,9 +37,9 @@ Combine the Licensee name and Purpose of the Environment name, separating each w
 
 Examples...
 
-ETA-DEMO
-NOVA-DEV
-SULLIVAN-PROD
+* ETA-DEMO
+* NOVA-DEV
+* SULLIVAN-PROD
 
 
 ##GIT REPOS AND BRANCHES
@@ -84,7 +84,7 @@ Continue to use dashes when creating issues or tasks within Jira. Within each pr
 
 So in chat, we reference the NOVA staging environ thusly...
 
-NOVA-DEV
+    NOVA-DEV
 
 And, in chat, we reference the related NOVA Jira project thusly...
 
@@ -122,9 +122,9 @@ Today, we're deploying to NOVA-DEV **an environ in AWS**. We've closed some issu
 
 #CHEAT SHEET
 
--Environs: All CAPS, DASHES ONLY; <LICENSEE>-<PURPOSE_OF_ENVIRON>
--Repo: All lowercase, dashes only; <licensee>-<purpose_of_environ>
--Branch: All lowercase, dashes only; <Jira_UID>-<licensee>-<purpose_of_environ>
--Jira Projects: All CAPS, UNDERSCORES ONLY; <LICENSEE>_<PURPOSE_OF_ENVIRON>
--Jira Issues: All lowercase, dashes only; <Jira UID>-<licensee>-<purpose_of_environ>
+* Environs: All CAPS, DASHES ONLY; <LICENSEE>-<PURPOSE_OF_ENVIRON>
+* Repo: All lowercase, dashes only; <licensee>-<purpose_of_environ>
+* Branch: All lowercase, dashes only; <Jira_UID>-<licensee>-<purpose_of_environ>
+* Jira Projects: All CAPS, UNDERSCORES ONLY; <LICENSEE>_<PURPOSE_OF_ENVIRON>
+* Jira Issues: All lowercase, dashes only; <Jira UID>-<licensee>-<purpose_of_environ>
 
