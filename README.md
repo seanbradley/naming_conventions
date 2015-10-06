@@ -108,23 +108,23 @@ The point of all of this is to make articulate in text-chat based conversations 
 
 ###Without Naming Conventions (BAD)
 
-Today, we're deploying nova. I've closed the project in Jira. I've merged nova-dev into NOVA reskin. I also merged the social branch into nova dev.
+"Today, we're deploying nova. I've closed the project in Jira. I've merged nova-dev into NOVA reskin. I also merged the social branch into nova dev."
 
 
 ###With Naming Conventions (GOOD)
 
-Today, we're deploying to NOVA-DEV. We've closed some issues in NOVA_DEV. ND-1-change-background-images has been merged into nova-dev. 
+"Today, we're deploying to NOVA-DEV. We've closed some issues in NOVA_DEV. ND-1-change-background-images has been merged into nova-dev." 
 
 ###With Naming Conventions (GOOD...ANNOTATED)
 
-Today, we're deploying to NOVA-DEV **an environ in AWS**. We've closed some issues in NOVA_DEV **a project in Jira**. ND-1-change-background-images **a branch in GitHub** has been merged into nova-dev **a repo in Git; the master branch is implied**.
+"Today, we're deploying to NOVA-DEV" **an environ in AWS**. "We've closed some issues in NOVA_DEV" **a project in Jira**. "ND-1-change-background-images..." **a branch in GitHub** "...has been merged into nova-dev" **a repo in Git (master branch is implied)**.
 
 
 #CHEAT SHEET
 
-* Environs: All CAPS, DASHES ONLY; <LICENSEE>-<PURPOSE_OF_ENVIRON>
-* Repo: All lowercase, dashes only; <licensee>-<purpose_of_environ>
-* Branch: All lowercase, dashes only; <Jira_UID>-<licensee>-<purpose_of_environ>
-* Jira Projects: All CAPS, UNDERSCORES ONLY; <LICENSEE>_<PURPOSE_OF_ENVIRON>
-* Jira Issues: All lowercase, dashes only; <Jira UID>-<licensee>-<purpose_of_environ>
+* Environs: All CAPS, dashes only--like so: LICENSEE-PURPOSE
+* Repo: All lowercase, dashes only--like so: licensee-purpose
+* Branch: All lowercase, dashes only--like so: uid-licensee-purpose
+* Jira Projects: All CAPS, underscores only--like so: LICENSEE_PURPOSE
+* Jira Issues: All lowercase, dashes only; uid-licensee-purpose
 
