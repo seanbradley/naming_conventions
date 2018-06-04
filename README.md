@@ -135,7 +135,7 @@ The point of all of this is to make articulate (especially in e-mail or text-cha
 
 ### With Naming Conventions (GOOD...ANNOTATED)
 
-"Today, we're deploying to WONKA-DEV" **caps and dash: an environ in Google Cloud Platform**. "We've closed some issues in WONKA_DEV" **caps and underscore: a project in TFS**. "ND-1-change-background-images..." **task number, lowercase, dashes: a branch in Gitlab** "...has been merged into wonka-dev" **stakeholder and environ name, lowercase and dashes: a repo in Gitlab (master branch is implied)**.
+"Today, we're deploying to WONKA-DEV" **caps and dash indicate an environ in AWS or GCP**. "We've closed some issues in WONKA_DEV" **caps and underscore indicate a project in TFS**. "ND-1-change-background-images..." **task ID number, lowercase, and dashes indicate a branch in Gitlab** "...has been merged into wonka-dev" **stakeholder and environ name presented in lowercase and dashes indicate a repo in Gitlab (master branch is implied)**.
 
 
 # CHEAT SHEET
